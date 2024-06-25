@@ -28,17 +28,19 @@ console.log("El precio total de los sables de luz es:", precioTotal);//El precio
 
 
 //EJERCICIO2.4. Actualizando el precio final de las naves:
-let precioBaseGlobal = 25000;
+let precioBaseGlobal = 10000;
 
 const nave1 = {nombre: "Ala-X", precioBase: 50000, precioFinal: 60000};
 const nave2 = {nombre: "Halcón Milenario", precioBase: 70000, precioFinal: 80000};
 
 // Tu código para actualizar el precio final de cada nave aquí...
+precioBaseGlobal = 25000
 nave1.precioFinal = nave1.precioBase + precioBaseGlobal;
 nave2.precioFinal = nave2.precioBase + precioBaseGlobal;
 
 console.log("Nuevo precio final de la nave Ala-X:", nave1.precioFinal);
 console.log("Nuevo precio final del Halcón Milenario:", nave2.precioFinal);
+;
 
 //respuesta de la consola
 //Nuevo precio final de la nave Ala-X: 75000
