@@ -2,6 +2,8 @@
 const aldeanos = ["Fibrilio", "Narciso", "Vacarena", "Tendo", "Nendo"];
 //4.1 - Saca a "Tendo" por consola atacando su posición.
 
+console.log(aldeanos.indexOf( "Tendo"));//3
+
 console.log(aldeanos[3]);//Tendo
 
 
