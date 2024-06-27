@@ -4,11 +4,12 @@ function findLongestWord(stringList) {
   // Completar código
   let longestWord = "";
 
-  for(let i = 0; i < stringList.length; i++) {
-    if (stringList[i].length > longestWord.length) {
-        longestWord = stringList[i];
+  for (const word of stringList) {
+    if (word.length > longestWord.length) {
+      longestWord = word;
     }
   }
+
   return longestWord;
 }
 
