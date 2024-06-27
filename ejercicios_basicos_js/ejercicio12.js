@@ -13,16 +13,7 @@ const duplicates = [
   ];
   function removeDuplicates(list) {
     // Completar
-    let seen = {};
-  let arrayFiltrado = list.filter((elemento) => {
-    if (seen[elemento]) {
-      return false;
-    } else {
-      seen[elemento] = true;
-      return true;
-    }
-  });
-  return arrayFiltrado;
+    return list.filter((item, index) => list.indexOf(item) === index);
 }
 
 // Probar la función con el array proporcionado
